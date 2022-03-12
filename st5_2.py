@@ -30,7 +30,7 @@ def ml_operation():
         
 
                  df2 = pd.get_dummies(df1, drop_first=True)
-                 url = 'https://github.com/NR109/mlproject/blob/main/test%20set%20st.csv?raw=true'
+                 url = 'https://drive.google.com/file/d/1xDHWoHulIn8SAVKfLW_ybixNyg62e42G/view?usp=sharing?raw=true'
 
                  dft = pd.read_csv(url)
              
