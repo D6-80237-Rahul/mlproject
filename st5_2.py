@@ -30,9 +30,11 @@ def ml_operation():
         
 
                  df2 = pd.get_dummies(df1, drop_first=True)
-                 url = 'https://drive.google.com/file/d/1xDHWoHulIn8SAVKfLW_ybixNyg62e42G/view?usp=sharing?raw=true'
+                 url = 'https://drive.google.com/file/d/0B6GhBwm5vaB2ekdlZW5WZnppb28/view?usp=sharing'
+                 path = 'https://drive.google.com/uc?export=download&id='+url.split('/')[-2]
+                 dft = pd.read_csv(path)
 
-                 dft = pd.read_csv(url)
+             
              
             
           
