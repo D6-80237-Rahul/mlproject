@@ -30,7 +30,7 @@ def ml_operation():
         
 
           df2 = pd.get_dummies(df1, drop_first=True)
-          df = pd.read_csv(r"https://github.com/NR109/mlproject/blob/main/test%20set%20st.csv")
+          df = pd.read_csv(r"C:\Users\Dell\Desktop\project\Activity recognition exp\data\test set st.csv")
           X = df.iloc[:,0:5]
           x = pd.get_dummies(X, drop_first=True)
           y = df.iloc[: , -1]
