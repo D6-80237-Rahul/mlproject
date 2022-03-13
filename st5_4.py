@@ -7,7 +7,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 
 def ml_operation():
-    st.title(" Execute ML Operation")
+    st.subheader(" Execute ML Operation")
     st.success('Model Training Complete')
     ok = st.button("Press for Predictions")
     if ok:
@@ -72,7 +72,7 @@ st.sidebar.markdown("Project Guide:Ms.Manasi Yeole")
 st.sidebar.markdown("Develpoed by:Avinash\nPrakhar\nRahul\nShivam\nMayuresh")
 
 st.title("Human Activity Recognititon")
-st.title("Test File")
+st.subheader("Test File")
 uploaded_file2 = st.file_uploader("Choose a test file")
 if uploaded_file2 is not None:
   
