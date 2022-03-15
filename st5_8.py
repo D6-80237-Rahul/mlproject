@@ -4,10 +4,8 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split, GridSearchCV,StratifiedKFold
 from sklearn.metrics import accuracy_score
 from sklearn.neighbors import KNeighborsClassifier
-import plotly.figure_factory as ff
-import numpy as np
 import matplotlib.pyplot as plt
-import plotly.express as px
+
 
 
 def ml_operation():
