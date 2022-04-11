@@ -6,8 +6,7 @@ from sklearn.model_selection import train_test_split, GridSearchCV,StratifiedKFo
 from sklearn.metrics import accuracy_score,roc_auc_score
 from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
-from pydrive.auth import GoogleAuth
-from pydrive.drive import GoogleDrive
+
 
 #Fuction for model training and predctions
 
