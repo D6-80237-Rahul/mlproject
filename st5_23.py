@@ -135,7 +135,7 @@ def ml_operation():
                  
                  fig
                  with st.expander("See explanation"):
-                     st.write("""The Chart above shows the types of activities user has done""")
+                     st.write("""The bar chart with time on Y axis and avtivity on X axis.This plot shows which activity the user performs for a particular period of time with maximum activity to be performed is stand and minimum is bike . """)
 # st.write("""The chart above shows the types of activites use has done""")
                  st.title("Predictions in Tabular Form ")                 
                  st.write(result)
@@ -156,13 +156,13 @@ st.sidebar.markdown("Developed by:Avinash\nPrakhar\nRahul\nShivam\nMayuresh")
 
 st.title("Human Activity Recognition")
 st.caption("Upload file to get Predicted Activities(file should contain following fields - arrival_time,x,y,z{co-ordinates}) - in .csv Format")
-uploaded_file2 = st.file_uploader("Browse file in local meomory")
+uploaded_file2 = st.file_uploader("Browse file in local memory")
 if uploaded_file2 is not None:
   
     df2 = pd.read_csv(uploaded_file2)
     st.write(df2)
     genre = st.sidebar.radio("Data Analysis",('none','Charts'))
-    st.subheader('Select Data Analysis Option from Sidebar')
+    st.subheader('Select data analysis option from sidebar')
     if genre=='none':
         st.subheader('Do you want to proceed,without graphs?!')
         ok1 = st.button("Proceed")
