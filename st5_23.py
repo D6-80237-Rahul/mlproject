@@ -57,7 +57,7 @@ def ml_operation():
 
                  a=accuracy_score(y_test, y_pred1)
                  b=roc_auc_score(y_test, y_pred_prob,multi_class='ovr')
-                 st.subheader('The predictions are based on K Nearest Neighbour ML model .')
+                 st.subheader('The predictions are based on Random forest classifier ML model .')
                  st.subheader('Accuracy Score:')
                  st.text(a)  
                  st.subheader('Roc_Auc Score:')
@@ -205,7 +205,7 @@ if uploaded_file2 is not None:
 
                        a=accuracy_score(y_test, y_pred1)
                        b=roc_auc_score(y_test, y_pred_prob,multi_class='ovr')
-                       st.subheader('The predictions are based on K Nearest Neighbour ML model .')
+                       st.subheader('The predictions are based on Random Forest Classifier ML model .')
                        st.subheader('Accuracy Score:')
                        st.text(a)  
                        st.subheader('Roc_Auc Score:')
