@@ -18,7 +18,7 @@ def ml_operation():
     ok = st.button("Click for Predictions")
     if ok:
               with st.spinner('Please wait application is retrieving trainig dataset from Google drive....'):       
-                  url = 'https://drive.google.com/file/d/1DaZ9BktNdprOezWaWRP43w6XCTDf5K7d/view?usp=sharing'
+                  url = 'https://drive.google.com/file/d/1eR5OooRUD83Fob5k-egaWNEeIoEJDsxI/view?usp=sharing'
                   path = 'https://drive.google.com/uc?export=download&id='+url.split('/')[-2]
                   df = pd.read_csv(path)
                   st.success('Training dataset retrieved')
